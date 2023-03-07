@@ -84,8 +84,8 @@ document.addEventListener('DOMContentLoaded', () => {
       cards[optionsTwoId].setAttribute('src', 'images/white.png');
       cardsWon.push(cardsChosen);
     } else {
-      cards[optionsOneId.setAttribute('src', 'images/blank.png')];
-      cards[optionsTwoId.setAttribute('src', 'images/blank.png')];
+      cards[optionsOneId].setAttribute('src', 'images/blank.png');
+      cards[optionsTwoId].setAttribute('src', 'images/blank.png');
       alert('Please try again');
     }
 
